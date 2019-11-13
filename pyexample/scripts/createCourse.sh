@@ -2,6 +2,7 @@
 
 apt-get update
 apt-get install nginx -y
+sleep 60
 pip3 install virtualenv
 mkdir pyexample
 cd pyexample
