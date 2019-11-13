@@ -23,7 +23,9 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "createCourse.sh"
+
     },
     "finish": {
       "text": "finish.md"
@@ -31,6 +33,14 @@
   },
   "environment": {
     "uilayout": "terminal"
+  },
+  "assets": {
+    "client": [
+      {
+        "file": "config",
+        "target": "~/"
+      }
+    ]
   },
   "backend": {
     "imageid": "python"
