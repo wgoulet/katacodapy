@@ -1,0 +1,1 @@
+This scenario will show you how to use Venafi Cloud for DevOps with our VCert Pyton toolkit to request TLS certificates and configure an example NGINX webserver.
