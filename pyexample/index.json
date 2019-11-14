@@ -39,6 +39,10 @@
       {
         "file": "config",
         "target": "~/"
+      },
+      {
+        "file": "requirements.txt",
+        "target": "/root/"
       }
     ]
   },
