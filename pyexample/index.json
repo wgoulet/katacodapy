@@ -34,8 +34,7 @@
             "host01": [
                 {"file": "config.yml", "target": "/root/"}
             ]
-        }
-  },
+        },
   "environment": {
     "uilayout": "terminal-terminal"
   },
