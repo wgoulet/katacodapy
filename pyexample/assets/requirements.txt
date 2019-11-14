@@ -1,0 +1,14 @@
+asn1crypto==1.2.0
+certifi==2019.9.11
+certvalidator==0.11.1
+cffi==1.13.2
+chardet==3.0.4
+cryptography==2.8
+idna==2.8
+oscrypto==1.1.0
+pycparser==2.19
+python-dateutil==2.8.1
+requests==2.22.0
+six==1.13.0
+urllib3==1.25.7
+vcert==0.6.8
