@@ -12,5 +12,3 @@ virtualenv .
 source ./bin/activate
 apt-get update
 apt-get install nginx -y
-
-
