@@ -12,3 +12,4 @@ virtualenv .
 source ./bin/activate
 apt-get update
 apt-get install nginx -y
+echo "f9287bb64d738ec4c0e89012cc1472305b664db8"
