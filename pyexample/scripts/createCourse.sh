@@ -1,15 +1,4 @@
 #!/bin/sh
 
-pip3 install virtualenv
-mkdir pyexample
-cd pyexample
-mkdir tmp
-cd tmp
-git clone https://github.com/Venafi/vcert-python.git
-cp vcert-python/examples/get_cert.py ..
-cd ..
-virtualenv .
-source ./bin/activate
-apt-get update
-apt-get install nginx -y
-echo "f9287bb64d738ec4c0e89012cc1472305b664db8"
+curl https://releases.hashicorp.com/vault/1.3.0/vault_1.3.0_linux_amd64.zip
+unzip vault_1.3.0_linux_amd64.zip
