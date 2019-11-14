@@ -42,7 +42,7 @@
       },
       {
         "file": "requirements.txt",
-        "target": "/root/"
+        "target": "/usr/local/bin/"
       }
     ]
   },
