@@ -1,0 +1,11 @@
+storage "file" {
+            path    = "/usr/local/etc/vault"
+}
+listener "tcp" {
+          address     = "0.0.0.0:8200"
+            tls_disable = "true"
+}
+
+api_addr = "https://localhost:8200"
+
+plugin_directory = "/usr/local/etc/vault/plugins"
